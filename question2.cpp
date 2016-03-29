@@ -24,8 +24,9 @@ using namespace std;
 int main(int argc, char *argv[]) {
 
 	Time myTime(8, 40);									// instantiate time class 
-
-	//cout << "CM3 starts at " << myTime << endl;			// demonstrate overloaded stream insertion operator
+	myTime++;
+	
+	cout << "CM3 starts at " << myTime << endl;			// demonstrate overloaded stream insertion operator
 
 	myTime.set(10, 30);									// change the time
 
